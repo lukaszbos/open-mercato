@@ -45,7 +45,7 @@ export const enabledModules: ModuleEntry[] = [
   { id: 'gateway_stripe', from: '@open-mercato/gateway-stripe' },
   { id: 'shipping_carriers', from: '@open-mercato/core' },
   { id: 'example', from: '@app' },
-
+  { id: 'security', from: '@open-mercato/enterprise' },
 ]
 
 const enterpriseModulesEnabled = parseBooleanWithDefault(process.env.OM_ENABLE_ENTERPRISE_MODULES, false)
